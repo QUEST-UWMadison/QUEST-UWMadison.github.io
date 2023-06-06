@@ -8,18 +8,42 @@
 #  education3:
 #  education4:
 
-- name: Ilse Kuijf 
+- name: Satvik Maurya
+  photo: placeholder.jpg
+  info: PhD Student
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 2
+  education1: Master Leiden University with Milan Allan
+  education2: Casimir PhD fellowship
+  education3:
+  education4:
+
+- name: Tianyi Hao
+  photo: placeholder.jpg
+  info: PhD Student
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 2
+  education1: Master Leiden University with Milan Allan
+  education2: Casimir PhD fellowship
+  education3:
+  education4:
+
+- name: Chaithanya Naik Mude
+  photo: placeholder.jpg
+  info: PhD Student
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 2
+  education1: Master Leiden University with Milan Allan
+  education2: Casimir PhD fellowship
+  education3:
+  education4:
+
+- name: "New Member"
   photo: rock.jpg
   info: Master student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
   number_educ: 0
   education1:
 
-- name: Tessa Van der Ent
-  photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
-  number_educ: 0
-  education1:
 
 
