@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Team"
+title: "QUEST - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "QUEST: Team members"
 sitemap: false
 permalink: /team/
 ---
@@ -23,7 +23,7 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
@@ -89,6 +89,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
@@ -168,22 +169,15 @@ permalink: /team/
 ## Former students
 <div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
+<div class="col-sm-6 clearfix">
+<h4>Graduate students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
+<div class="col-sm-6 clearfix">
+<h4>Undergraduate Students</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}

@@ -7,9 +7,8 @@
 
 # Site settings
 title: MAD-QUEST
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the QUEST
+email: stannu@wisc.edu
+description: Website of the QUEST
 baseurl: "/QUEST-UWM"
 url: ""
 
