@@ -6,10 +6,10 @@ sitemap: false
 permalink: /
 ---
 
-Short group description & research overview
+Welcome to the official website of QUEST, we are Quantum and Emerging Systems and Architecture group at the University of Wisconsin-Madison! Our team explores a wide range of disciplines within system and architectural design, quantum computing, hardware security, and sustainability. We are interested in developing new abstractions, architectures, and tools for quantum and classical computing systems. 
 
 
- **Look at the current [team]({{ site.url }}{{ site.baseurl }}/team) **!**
+**Look at the current [team]({{ site.url }}{{ site.baseurl }}/team) **!**
 
 
 ## Publications

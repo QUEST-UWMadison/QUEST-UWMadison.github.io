@@ -6,12 +6,12 @@
   headline: Swamit spoke at Uppsala University, Sweden 
 - date: May 18th
   headline: Swamit spoke at CRA workshop in DC 
-- date: May 5th
+- date: XYZ
   headline: Chaithanya was awarded CS Summer RA Fellowship 
 - date: April 15th
   headline: Aditya, Ayushi, and Lakshika  will be joining QUEST-Lab in the Fall 2023 
 - date: March 15th
-  headline: Our papers OSCAR and HERQULES will appear at ISCA 2023 
+  headline: Our papers OSCAR and HERCULIS will appear at ISCA 2023 
 - date: March 15th
   headline: Queso will appear at PLDI 2023 
 - date: March 8th
