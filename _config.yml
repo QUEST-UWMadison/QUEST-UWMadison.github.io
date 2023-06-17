@@ -9,7 +9,7 @@
 title: MAD-QUEST
 email: stannu@wisc.edu
 description: Website of the QUEST
-baseurl: "/QUEST-UWM"
+baseurl: "/"
 url: ""
 
 include:
