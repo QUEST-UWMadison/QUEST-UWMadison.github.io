@@ -1,19 +1,196 @@
+- title: "Scaling Qubit Readout with Hardware Efficient Machine Learning Architectures"
+  image: imageaward_edited.png
+  description: 
+  authors: Satvik Maurya, Chaithanya Naik Mude, William Oliver, Benjamin Lienhard, Swamit Tannu
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3579371.3589042
+    pdf: downloads/Papers/2023/HERQULES_Camera_Ready (3).pdf
+    slides: downloads/HERQULES_ISCA.pptx
+    display: ISCA 2023
+  highlight: 1
+  selected: 1
+
+- title: "Enabling High Performance Debugging for Variational Quantum Algorithms using Compressed Sensing"
+  image: imageaward_edited.png
+  description: 
+  authors: Tianyi Hao*, Kun Liu*, Swamit Tannu
+  link:
+    url: https://dl.acm.org/doi/10.1145/3579371.3589044
+    pdf: downloads/Papers/2023/ISCA_2023_camera_ready (4).pdf
+    slides: downloads/OSCAR_pre_ISCA2023_v1.7.pdf
+    display: ISCA 2023
+  highlight: 1
+  selected: 1
+
+- title: "Synthesizing Quantum-Circuit Optimizers"
+  image: BSCCOgap.png
+  description: 
+  authors:  Amanda Xu, Abtin Molavi, Lauren Pick, Swamit Tannu, Aws Albarghouthi 
+  link:
+    url: https://dl.acm.org/doi/10.1145/3591254
+    pdf: downloads/Papers/2023/2211.09691 (3).pdf
+    display: PLDI 2023
+  highlight: 1
+  selected: 2
+
 - title: "COMPAQT: Compressed Waveform Memory Architecture for Scalable Qubit Control"
   image: imageaward_edited.png
-  description: On superconducting architectures, the state of a qubit is manipulated by using microwave pulses. Typically, the pulses are stored in the waveform memory and then streamed to the Digital-to-Analog Converter (DAC) to synthesize the gate operations. The waveform memory requires tens of Gigabytes per second of bandwidth to manipulate the qubit. Unfortunately, the required memory bandwidth grows linearly with the number of qubits. As a result, the bandwidth demand limits the number of qubits we can control concurrently. For example, on current RFSoCs-based qubit control platforms, we can control less than 40 qubits. In addition, the high memory bandwidth for cryogenic ASIC controllers designed to operate within a tight power budget translates to significant power dissipation, thus limiting scalability.In this paper, we show that waveforms are highly compressible, and we leverage this property to enable a scalable and efficient microarchitecture COMPAQT - Compressed Waveform Memory Architecture for Qubit Control. Waveform memory is read-only and COMPAQT leverages this to compress waveforms at compile time and store the compressed waveform in the on-chip memory. To generate the pulse, COMPAQT decompresses the waveform at runtime and then streams the decompressed waveform to the DACs. Using the hardware-efficient discrete cosine transform, COMPAQT can achieve, on average, 5x increase in the waveform memory bandwidth, which can enable 5x increase in the total number of qubits controlled in an RFSoC setup. Moreover, COMPAQT microarchitecture for cryogenic CMOS ASIC controllers can result in a 2.5x power reduction over uncompressed baseline. We also propose an adaptive compression scheme to further reduce the power consumed by the decompression engine, enabling up to 4x power reduction. Qubits are sensitive, and even a slight change in the control waveform can increase the gate error rate. We evaluate the impact of COMPAQT on the gate and circuit fidelity using IBM quantum computers. We see less than 0.1% degradation in fidelity when using COMPAQT.
+  description: 
   authors: Satvik Maurya, Swamit Tannu
   link:
     url: https://ieeexplore.ieee.org/document/9923861
+    pdf: downloads/COMPAQT_CameraReady.pdf
+    slides: downloads/compaqt_micro22.pptx
     display: MICRO 2022
   highlight: 1
+  selected: 1
+
+- title: "Qubit Mapping and Routing via MaxSAT"
+  image: BSCCOgap.png
+  description: 
+  authors:  Abtin Molavi, Amanda Xu, Martin Diges, Lauren Pick, Swamit Tannu, Aws Albarghouthi
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/9923822
+    pdf: downloads/Papers/2022/2208.13679 (2).pdf
+    display: MICRO 2022
+  highlight: 1
+  selected: 2
 
 - title: "HAMMER: boosting fidelity of noisy Quantum circuits by exploiting Hamming behavior of erroneous outcomes"
   image: BSCCOgap.png
-  description: Quantum computers with hundreds of qubits will be available soon. Unfortunately, high device error-rates pose a significant challenge in using these near-term quantum systems to power real-world applications. Executing a program on existing quantum systems generates both correct and incorrect outcomes, but often, the output distribution is too noisy to distinguish between them. In this paper, we show that erroneous outcomes are not arbitrary but exhibit a well-defined structure when represented in the Hamming space. Our experiments on IBM and Google quantum computers show that the most frequent erroneous outcomes are more likely to be close in the Hamming space to the correct outcome. We exploit this behavior to improve the ability to infer the correct outcome. We propose Hamming Reconstruction (HAMMER), a post-processing technique that leverages the observation of Hamming behavior to reconstruct the noisy output distribution, such that the resulting distribution has higher fidelity. We evaluate HAMMER using experimental data from Google and IBM quantum computers with more than 500 unique quantum circuits and obtain an average improvement of 1.37x in the quality of solution. On Google's publicly available QAOA datasets, we show that HAMMER sharpens the gradients on the cost function landscape.
+  description: 
   authors:  Swamit Tannu, Poulami Das, Ramin Ayanzadeh, Moinuddin Qureshi
   link:
     url: https://dl.acm.org/doi/10.1145/3503222.3507703
+    pdf: downloads/Papers/2022/HAMMER_preprints.pdf
     display: ASPLOS 2022
   highlight: 1
+  selected: 2
 
+- title: "EQUAL: Improving the Fidelity of Quantum Annealers by Injecting Controlled Perturbations"
+  image: BSCCOgap.png
+  description: 
+  authors:  Ramin Ayanzadeh, Poulami Das, Swamit Tannu, Moinuddin Qureshi
+  link:
+    url: https://ieeexplore.ieee.org/document/9951319
+    display: QCE 2022
+  highlight: 1
+
+
+- title: "Laser Tag: Flipping Bits in DRAM using Laser Induced Localized Heating"
+  image: BSCCOgap.png
+  description: 
+  authors:  Saurav Mathur, Nirmit Jallawar, Swamit Tannu
+  link:
+    url: https://dramsec.ethz.ch/papers/mathur-dramsec22.pdf
+    display: DRAMSec 2022
+  highlight: 1
+  selected: 1
+
+- title: "The Dirty Secret of SSDs: Embodied Carbon"
+  image: BSCCOgap.png
+  description: 
+  authors: Swamit Tannu, Prashant Nair  
+  link:
+    url: https://ui.adsabs.harvard.edu/abs/2022arXiv220710793T/abstract
+    pdf: downloads/Papers/2022/DRAMSec (3).pdf
+    display: HotCarbon 2022
+  highlight: 1
+  selected: 1
+
+- title: "ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling"
+  image: BSCCOgap.png
+  description: 
+  authors: Poulami Das*, Swamit Tannu*, Siddarth Dangwal, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3466752.3480059
+    pdf: downloads/Papers/2021/2109.05309 (7).pdf
+    display: MICRO 2021
+  highlight: 1
+  selected: 2
+
+- title: "JigSaw: Boosting Fidelity of NISQ Programs via Measurement Subsetting"
+  image: BSCCOgap.png
+  description: 
+  authors: Poulami Das, Swamit Tannu, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3466752.3480044
+    pdf: downloads/Papers/2021/2109.05314 (2).pdf
+    display: MICRO 2021
+  highlight: 1
+  selected: 2
+
+- title: "Quantum Computing and the Design of the Ultimate Accelerator"
+  image: BSCCOgap.png
+  description: 
+  authors: Moinuddin Qureshi, Swamit Tannu
+  link:
+    url: https://ieeexplore.ieee.org/document/9537177
+    pdf: downloads/Papers/2021/Quantum_Computing_and_the_Design_of_the_Ultimate_Accelerator (1).pdf
+    display: MICRO 2021
+  highlight: 1
+  selected: 2
+
+- title: "Ensemble of Diverse Mappings: Improving Reliability of Quantum Computers by Orchestrating Dissimilar Mistakes"
+  image: BSCCOgap.png
+  description: 
+  authors:  Swamit Tannu, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3352460.3358257
+    display: MICRO 2019
+  highlight: 1
+
+- title: "Mitigating Measurement Errors in Quantum Computers by Exploiting State-Dependent Bias"
+  image: BSCCOgap.png
+  description: 
+  authors:  Swamit Tannu, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3352460.3358265
+    display: MICRO 2019
+  highlight: 1
+
+- title: "A Case for Multi-Programming Quantum Computers"
+  image: BSCCOgap.png
+  description: 
+  authors:  Poulami Das, Swamit Tannu, Prashant Nair,  Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3352460.3358287
+    display: MICRO 2019
+  highlight: 1
+
+- title: "Not all Qubits Are Created Equal: A Case for Variability-Aware Policies for NISQ-Era Quantum Computers"
+  image: BSCCOgap.png
+  description: 
+  authors:  Swamit Tannu, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3352460.3358287
+    display: ASPLOS 2019
+  highlight: 1
+
+- title: "A Case for Superconducting Accelerators"
+  image: BSCCOgap.png
+  description: 
+  authors: Swamit Tannu, Poulami Das, Michael Lewis, Robert Krick, Douglas Carmean, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3310273.3321561
+    display: CF 2019
+  highlight: 1
+
+- title: "Taming the Instruction Bandwidth of Quantum Computers via Hardware-Managed Error Correction"
+  image: BSCCOgap.png
+  description: 
+  authors: Swamit Tannu,  Zachery Myers, Prashant Nair, Douglas Carmean, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3123939.3123940
+    display: MICRO 2017
+  highlight: 1
+
+- title: "Cryogenic-DRAM based memory system for scalable quantum computers: a feasibility study"
+  image: BSCCOgap.png
+  description: 
+  authors: Swamit Tannu, Douglas Carmean, Moinuddin Qureshi
+  link:
+    url: https://dl.acm.org/doi/10.1145/3132402.3132436
+    display: MEMSYS 2017
+  highlight: 1
 

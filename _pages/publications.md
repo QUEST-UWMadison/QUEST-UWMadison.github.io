@@ -7,9 +7,9 @@ permalink: /publications/
 ---
 
 
-# Publications
+<!-- # Publications -->
 
-## Group highlights
+<!-- ## Group highlights
 
 **At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?query=swamit+tannu&searchtype=author&abstracts=show&order=&size=200).**
 
@@ -49,7 +49,7 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
 
 <!-- ## Patents
